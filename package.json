@@ -11,7 +11,8 @@
   "author": "confused-Techie",
   "license": "MIT",
   "pkg": {
-    "outputPath": "dist"
+    "outputPath": "dist",
+    "targets": [ "latest-win-x64", "latest-macos-x64", "latest-linux-x64" ]
   },
   "bin": "./bin/pulsar-cleanup.js",
   "dependencies": {
