@@ -1,0 +1,24 @@
+{
+  "name": "pulsar-cleanup",
+  "version": "1.0.0",
+  "description": "Cleans up any artifacts leftover by a Pulsar installation",
+  "main": "./src/main.js",
+  "repository": "https://github.com/confused-Techie/pulsar-cleanup",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "pkg -C GZip ."
+  },
+  "author": "confused-Techie",
+  "license": "MIT",
+  "pkg": {
+    "outputPath": "dist"
+  },
+  "bin": "./bin/pulsar-cleanup.js",
+  "dependencies": {
+    "log-utils": "^1.0.0",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  }
+}
