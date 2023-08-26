@@ -70,7 +70,7 @@ async function removeDirectory(dir) {
   });
 
   if (!res.value) {
-    console.log(`SKipping deletion of '${dir}' due to user denail.`);
+    console.log(`SKipping deletion of '${dir}' due to user denial.`);
     return;
   } else {
     console.log(`Deleting '${dir}' permanently...`);
