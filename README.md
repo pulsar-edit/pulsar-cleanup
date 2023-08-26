@@ -4,7 +4,7 @@ This CLI tool aims to help cleanup any artifacts leftover by a Pulsar installati
 
 Since the process of uninstalling Pulsar is largely controlled by `electron-builder`, after an uninstall there may be some items leftover that the user doesn't want.
 
-This tools then can step in to be run as a simple executable and allow the user to choose what they'd like to remove permanently.
+This tool then can step in to be run as a simple executable and allow the user to choose what they'd like to remove permanently.
 
 ## Warning
 
